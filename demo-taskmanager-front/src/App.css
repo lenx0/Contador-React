@@ -1,0 +1,31 @@
+ #root {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .App {
+     background-color: rgb(57, 28, 138);
+     width: 500px;
+     height: 200px;
+     border-radius: 5px;
+ }
+
+ .App-count h1 {
+     display: grid;
+     justify-content: center;
+     color: white;
+     font-size: 30px;
+ }
+
+ .App-buttons {
+     display: flex;
+     justify-content: center;
+ }
+
+ .App-buttons button {
+     width: 100px;
+     margin: 5px;
+ }
